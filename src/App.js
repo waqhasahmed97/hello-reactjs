@@ -10,7 +10,7 @@ function App() {
     // Function to fetch database status
     const fetchDbStatus = async () => {
       try {
-        const response = await fetch('http://15.206.111.194:3001/api/check-db');
+        const response = await fetch('http://15.206.111.194:3000/api/check-db');
         const data = await response.json();
         
         if (response.ok) {
